@@ -7,3 +7,5 @@ and to implement, test and evaluate the dynamic website. The website should cont
 and is capable of gathering and conditioning data supplied by a user. Users should be able to browse all the information. 
 Dynamic interactive design and event handling techniques (for examples, animation, banner, image effects, date/time, form validation, 
 calculator and cookies) are required. Background research is essential.
+
+planning doc: https://drive.google.com/open?id=1RU0fNUHlbrPg__iF_wkzcvtVcN35FgASkS1FEHDYLro
