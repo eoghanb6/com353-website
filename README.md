@@ -8,4 +8,6 @@ and is capable of gathering and conditioning data supplied by a user. Users shou
 Dynamic interactive design and event handling techniques (for examples, animation, banner, image effects, date/time, form validation, 
 calculator and cookies) are required. Background research is essential.
 
-planning doc: https://drive.google.com/open?id=1RU0fNUHlbrPg__iF_wkzcvtVcN35FgASkS1FEHDYLro
+Planning doc: https://drive.google.com/open?id=1RU0fNUHlbrPg__iF_wkzcvtVcN35FgASkS1FEHDYLro
+
+Trello: https://trello.com/b/yYDnR6mZ/com353
