@@ -2815,6 +2815,19 @@ video.responsive-video {
   color: #fff;
 }
 
+.parallax {
+    /* The image used */
+    background-image: url("media/featured-home-1.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .parallax-container {
   position: relative;
   overflow: hidden;
@@ -2831,7 +2844,7 @@ video.responsive-video {
 }
 
 .parallax-container .parallax img {
-  opacity: 0;
+  opacity: none;
   position: absolute;
   left: 50%;
   bottom: 0;
@@ -9205,4 +9218,30 @@ input[type=range]::-ms-thumb {
     text-align: center;
     margin-top: 1.2rem;
   }
+
+  .parallax-container-bookings {
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+}
+.parallax-container-bookings-2 {
+  position: relative;
+  overflow: hidden;
+  height: 260px;
+}
+ .section.no-pad-bot-bookings {
+   padding-bottom: 0;
+   background-color: #039be5;
+ }
+
+ .bookNowButton {
+   background-color: #039be5 !important;
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px
+ }
 }
