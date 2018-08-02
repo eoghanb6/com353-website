@@ -9514,4 +9514,9 @@ input[type=range]::-ms-thumb {
 
       color: #76323F;
     }
+
+    #firstJournal {
+      background: url(images/buyers_journal/first_journal.jpg) no-repeat center top #000;
+
+    }
 }
