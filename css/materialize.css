@@ -2828,10 +2828,15 @@ video.responsive-video {
     background-repeat: no-repeat;
 }
 
+#main_container {
+     margin: 0 auto;
+     text-align: left;
+}
+
 .parallax-container {
   position: relative;
   overflow: hidden;
-  height: 500px;
+  height: 1340px;
 }
 
 .parallax-container .parallax {
