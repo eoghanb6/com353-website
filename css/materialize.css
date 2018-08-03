@@ -9759,6 +9759,7 @@ input[type=range]::-ms-thumb {
 
     #index-banner {
         opacity: 80%;
+        height:1300px;
     }
 
     #header-logo {
@@ -9845,5 +9846,19 @@ input[type=range]::-ms-thumb {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#index {
+
+  background-color: #efefef;
+  height: 700px;
+}
+
+#trustedDevelopers {
+  text-align: center;
+}
+
+#trustedDevelopersContainer {
+  width: 80%;
 }
 }
