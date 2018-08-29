@@ -10026,6 +10026,7 @@ input[type=range]::-ms-thumb {
         background-size: cover;
     }
 
+    
     #index {
 
         background-color: #efefef;
@@ -10044,14 +10045,40 @@ input[type=range]::-ms-thumb {
         height: 500px;
     }
 
-    .news-items {
+    .index-news-items {
         margin: 30px 0;
-        padding: 0;
+        padding-left: 100px !important;
+        display: block !important;
     }
 
-    .news-item {
+    .index-news-item {
         margin: 0;
         padding: 0;
-        display: block;
+        display: block !important;
     }
+
+    #login-container {
+        background-color: #efefef;
+        height: 500px;
+        width: 1200px;
+    }
+
+    #login-bottom {
+        height: 700px;
+    }
+
+    #login-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 200px;
+        padding-left: 40px; 
+    }
+
+    #login-form {
+    width: 1000;
+    text-align: center;
+    padding-left: 220;
+    padding-top: 60px;
+}
 }
