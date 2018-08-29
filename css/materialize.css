@@ -10083,11 +10083,11 @@ input[type=range]::-ms-thumb {
     }
 
     #login-header {
-        padding-left: 15px;
+        padding-left: 25px;
     }
 
     #register-header {
-         padding-left: 15px;
+         padding-left: 25px;
     }
 
 }
