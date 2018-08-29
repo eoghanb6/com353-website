@@ -2146,6 +2146,7 @@
 
 
 
+
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 
 
@@ -2174,6 +2175,7 @@ html {
 
 
 
+
 /* Sections
    ========================================================================== */
 
@@ -2185,6 +2187,7 @@ html {
 body {
     margin: 0;
 }
+
 
 
 
@@ -2211,6 +2214,7 @@ section {
 
 
 
+
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
@@ -2220,6 +2224,7 @@ h1 {
     font-size: 2em;
     margin: 0.67em 0;
 }
+
 
 
 
@@ -2249,6 +2254,7 @@ main {
 
 
 
+
 /**
  * Add the correct margin in IE 8.
  */
@@ -2256,6 +2262,7 @@ main {
 figure {
     margin: 1em 40px;
 }
+
 
 
 
@@ -2284,6 +2291,7 @@ hr {
 
 
 
+
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
@@ -2295,6 +2303,7 @@ pre {
     font-size: 1em;
     /* 2 */
 }
+
 
 
 
@@ -2324,6 +2333,7 @@ a {
 
 
 
+
 /**
  * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
@@ -2346,6 +2356,7 @@ abbr[title] {
 
 
 
+
 /**
  * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
  */
@@ -2361,6 +2372,7 @@ strong {
 
 
 
+
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
@@ -2369,6 +2381,7 @@ b,
 strong {
     font-weight: bolder;
 }
+
 
 
 
@@ -2396,6 +2409,7 @@ samp {
 
 
 
+
 /**
  * Add the correct font style in Android 4.3-.
  */
@@ -2403,6 +2417,7 @@ samp {
 dfn {
     font-style: italic;
 }
+
 
 
 
@@ -2425,6 +2440,7 @@ mark {
 
 
 
+
 /**
  * Add the correct font size in all browsers.
  */
@@ -2432,6 +2448,7 @@ mark {
 small {
     font-size: 80%;
 }
+
 
 
 
@@ -2466,6 +2483,7 @@ sup {
 
 
 
+
 /* Embedded content
    ========================================================================== */
 
@@ -2478,6 +2496,7 @@ audio,
 video {
     display: inline-block;
 }
+
 
 
 
@@ -2500,6 +2519,7 @@ audio:not([controls]) {
 
 
 
+
 /**
  * Remove the border on images inside links in IE 10-.
  */
@@ -2514,6 +2534,7 @@ img {
 
 
 
+
 /**
  * Hide the overflow in IE.
  */
@@ -2521,6 +2542,7 @@ img {
 svg:not(:root) {
     overflow: hidden;
 }
+
 
 
 
@@ -2558,6 +2580,7 @@ textarea {
 
 
 
+
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
@@ -2575,6 +2598,7 @@ input {
 
 
 
+
 /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
@@ -2585,6 +2609,7 @@ select {
     /* 1 */
     text-transform: none;
 }
+
 
 
 
@@ -2612,6 +2637,7 @@ html [type="button"],
 
 
 
+
 /**
  * Remove the inner border and padding in Firefox.
  */
@@ -2623,6 +2649,7 @@ button::-moz-focus-inner,
     border-style: none;
     padding: 0;
 }
+
 
 
 
@@ -2647,6 +2674,7 @@ button:-moz-focusring,
 
 
 
+
 /**
  * Correct the padding in Firefox.
  */
@@ -2654,6 +2682,7 @@ button:-moz-focusring,
 fieldset {
     padding: 0.35em 0.75em 0.625em;
 }
+
 
 
 
@@ -2690,6 +2719,7 @@ legend {
 
 
 
+
 /**
  * 1. Add the correct display in IE 9-.
  * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
@@ -2708,6 +2738,7 @@ progress {
 
 
 
+
 /**
  * Remove the default vertical scrollbar in IE.
  */
@@ -2715,6 +2746,7 @@ progress {
 textarea {
     overflow: auto;
 }
+
 
 
 
@@ -2742,6 +2774,7 @@ textarea {
 
 
 
+
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
@@ -2750,6 +2783,7 @@ textarea {
 [type="number"]::-webkit-outer-spin-button {
     height: auto;
 }
+
 
 
 
@@ -2775,6 +2809,7 @@ textarea {
 
 
 
+
 /**
  * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
  */
@@ -2783,6 +2818,7 @@ textarea {
 [type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
 }
+
 
 
 
@@ -2801,6 +2837,7 @@ textarea {
     font: inherit;
     /* 2 */
 }
+
 
 
 
@@ -2828,6 +2865,7 @@ menu {
 
 
 
+
 /*
  * Add the correct display in all browsers.
  */
@@ -2835,6 +2873,7 @@ menu {
 summary {
     display: list-item;
 }
+
 
 
 
@@ -2860,6 +2899,7 @@ canvas {
 
 
 
+
 /**
  * Add the correct display in IE.
  */
@@ -2867,6 +2907,7 @@ canvas {
 template {
     display: none;
 }
+
 
 
 
@@ -2949,6 +2990,7 @@ a {
 
 
 
+
 /* 2dp elevation modified*/
 
 .z-depth-1,
@@ -2982,12 +3024,14 @@ nav,
 
 
 
+
 /* 6dp elevation modified*/
 
 .z-depth-2 {
     -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
 }
+
 
 
 
@@ -3008,12 +3052,14 @@ nav,
 
 
 
+
 /* 16dp elevation */
 
 .z-depth-4 {
     -webkit-box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -7px rgba(0, 0, 0, 0.2);
     box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -7px rgba(0, 0, 0, 0.2);
 }
+
 
 
 
@@ -3238,6 +3284,7 @@ video.responsive-video {
 
 
 
+
 /*********************
   Transition Classes
 **********************/
@@ -3251,6 +3298,7 @@ ul.staggered-list li {
     -webkit-transform-origin: 0 50%;
     transform-origin: 0 50%;
 }
+
 
 
 
@@ -3717,6 +3765,7 @@ th {
 
 
 
+
 /*******************
   Utility Classes
 *******************/
@@ -3832,6 +3881,7 @@ table span.badge {
     float: none;
     margin-left: auto;
 }
+
 
 
 
@@ -6119,6 +6169,7 @@ body.keyboard-focused .dropdown-content li:focus {
 
 
 
+
 /*!
  * Waves v0.6.0
  * http://fian.my.id/Waves
@@ -6242,6 +6293,7 @@ body.keyboard-focused .dropdown-content li:focus {
 .waves-block {
     display: block;
 }
+
 
 
 
@@ -6620,6 +6672,7 @@ label {
 
 
 
+
 /* Text Inputs + Textarea
    ========================================================================== */
 
@@ -6645,6 +6698,7 @@ label {
 ::placeholder {
     color: #d1d1d1;
 }
+
 
 
 
@@ -6827,6 +6881,7 @@ input[type=search]:not(.browser-default).validate+label,
 textarea.materialize-textarea.validate+label {
     width: 100%;
 }
+
 
 
 
@@ -7172,6 +7227,7 @@ textarea.materialize-textarea+label:after,
 
 
 
+
 /* Search Field */
 
 .input-field input[type=search] {
@@ -7228,6 +7284,7 @@ textarea.materialize-textarea+label:after,
 
 
 
+
 /* Textarea */
 
 textarea {
@@ -7267,6 +7324,7 @@ textarea.materialize-textarea {
 
 
 
+
 /* Autocomplete */
 
 .autocomplete-content li .highlight {
@@ -7285,11 +7343,13 @@ textarea.materialize-textarea {
 
 
 
+
 /* Character Counter */
 
 .character-counter {
     min-height: 18px;
 }
+
 
 
 
@@ -7344,6 +7404,7 @@ textarea.materialize-textarea {
 
 
 
+
 /* Unchecked styles */
 
 [type="radio"]:not(:checked)+span:before,
@@ -7364,6 +7425,7 @@ textarea.materialize-textarea {
     -webkit-transform: scale(0);
     transform: scale(0);
 }
+
 
 
 
@@ -7399,12 +7461,14 @@ textarea.materialize-textarea {
 
 
 
+
 /* Radio With gap */
 
 [type="radio"].with-gap:checked+span:after {
     -webkit-transform: scale(0.5);
     transform: scale(0.5);
 }
+
 
 
 
@@ -7425,6 +7489,7 @@ textarea.materialize-textarea {
 
 
 
+
 /* Disabled Radio With gap */
 
 [type="radio"].with-gap:disabled:checked+span:before {
@@ -7435,6 +7500,7 @@ textarea.materialize-textarea {
     border: none;
     background-color: rgba(0, 0, 0, 0.42);
 }
+
 
 
 
@@ -7462,6 +7528,7 @@ textarea.materialize-textarea {
     background-color: rgba(0, 0, 0, 0.42);
     border-color: #949494;
 }
+
 
 
 
@@ -7558,6 +7625,7 @@ textarea.materialize-textarea {
     border-right: 2px solid rgba(0, 0, 0, 0.42);
     border-bottom: 2px solid rgba(0, 0, 0, 0.42);
 }
+
 
 
 
@@ -7686,6 +7754,7 @@ textarea.materialize-textarea {
 
 
 
+
 /* Switch
    ========================================================================== */
 
@@ -7785,6 +7854,7 @@ input[type=checkbox]:not(:disabled).tabbed:focus~.lever::before {
 .switch label input[type=checkbox][disabled]:checked+.lever:after {
     background-color: #949494;
 }
+
 
 
 
@@ -7950,6 +8020,7 @@ body.keyboard-focused .select-dropdown.dropdown-content li:focus {
 
 
 
+
 /* File Input
    ========================================================================== */
 
@@ -7996,6 +8067,7 @@ body.keyboard-focused .select-dropdown.dropdown-content li:focus {
 .file-field input[type=file]::-webkit-file-upload-button {
     display: none;
 }
+
 
 
 
@@ -8168,6 +8240,7 @@ input[type=range]::-ms-thumb {
 .keyboard-focused input[type=range]:focus:not(.active)::-ms-thumb {
     box-shadow: 0 0 0 10px rgba(38, 166, 154, 0.26);
 }
+
 
 
 
@@ -8454,6 +8527,7 @@ input[type=range]::-ms-thumb {
 
 
 
+
 /*
     @license
     Copyright (c) 2014 The Polymer Project Authors. All rights reserved.
@@ -8551,6 +8625,7 @@ input[type=range]::-ms-thumb {
 .spinner-green-only {
     border-color: #0f9d58;
 }
+
 
 
 
@@ -8834,6 +8909,7 @@ input[type=range]::-ms-thumb {
         opacity: 0;
     }
 }
+
 
 
 
@@ -9381,6 +9457,7 @@ input[type=range]::-ms-thumb {
 
 
 
+
 /* Modal */
 
 .datepicker-modal {
@@ -9458,6 +9535,7 @@ input[type=range]::-ms-thumb {
 
 
 
+
 /* Date Display */
 
 .datepicker-date-display {
@@ -9484,6 +9562,7 @@ input[type=range]::-ms-thumb {
     line-height: 47px;
     font-weight: 500;
 }
+
 
 
 
@@ -9566,6 +9645,7 @@ input[type=range]::-ms-thumb {
 
 
 
+
 /* Footer */
 
 .datepicker-footer {
@@ -9593,6 +9673,7 @@ input[type=range]::-ms-thumb {
 .datepicker-clear {
     color: #F44336;
 }
+
 
 
 
@@ -9635,6 +9716,7 @@ input[type=range]::-ms-thumb {
 
 
 
+
 /* Timepicker Containers */
 
 .timepicker-modal {
@@ -9658,6 +9740,7 @@ input[type=range]::-ms-thumb {
 .text-primary {
     color: white;
 }
+
 
 
 
@@ -9711,6 +9794,7 @@ input[type=range]::-ms-thumb {
     bottom: 1rem;
     font-weight: 400;
 }
+
 
 
 
@@ -9825,6 +9909,7 @@ input[type=range]::-ms-thumb {
 
 
 
+
 /* Footer */
 
 .timepicker-footer {
@@ -9852,6 +9937,7 @@ input[type=range]::-ms-thumb {
 .timepicker-close {
     padding: 0 20px;
 }
+
 
 
 
@@ -10038,14 +10124,15 @@ input[type=range]::-ms-thumb {
         height: 500px;
     }
 
-    .news-items {
+    .index-news-items {
         margin: 30px 0;
-        padding: 0;
+        padding-left: 100px !important;
+        display: block !important;
     }
 
-    .news-item {
+    .index-news-item {
         margin: 0;
         padding: 0;
-        display: block;
+        display: block !important;
     }
 }
