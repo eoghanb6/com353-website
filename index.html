@@ -6,28 +6,13 @@
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
-    <link href=“https://fonts.googleapis.com/icon?family=Material+Icons” rel=“stylesheet”>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
 <!-- Notifying browser that website is optimised for mobile-->
 <meta name="viewport" conten="width=device-width, initial scale=1.0" />
 <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
-<style>
-.parallax {
-    /* The image used */
-    background-image: url("media/featured-home-1.jpg");
-
-    /* Set a specific height */
-    min-height: 500px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-</style>
 
 <body>
     <nav class="nav-wrapper" role- "navigationBar">
@@ -43,64 +28,95 @@
             </ul>
         </div>
     </nav>
-    <div class="parallax"></div>
+    <div class="parallax-index-first">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <br>
+                <br>
+                <img id="header-logo" src="images/logo/you-property-transparent.jpg">
+                <br>
+            </div>
+        </div>
+    </div>
     <div id="index-banner" class="parallax-container">
         <div class="section no-pad-bot">
             <div class="container">
+                <h3 id="whatsPopular" class="header center teal-text text-lighten-2"> SEE WHAT'S POPULAR</h3>
+                <br>
+            </div>
+        </div>
+        <div class="section no-pad-bot">
+            <div class="container">
                 <div class="row">
-                    <div class="col s12 m5 offset-m1">
+                    <div class="col s12 m6 offset-s1">
                         <div class="card">
                             <div class="card-image">
-                                <img src="images/sample-1.jpg">
-                                <span class="card-title">Card Title</span>
+                                <img src="images/images/DonegalPlace/DonP2.jpg">
+                                <span class="card-title">Donegal Place</span>
                             </div>
                             <div class="card-content">
-                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                                <p>
+                                        <li>3 Bedroom</li>
+                                        <li>Semi-Detached</li>
+                                        <li>Furnished</li>
+                                </p>
                             </div>
                             <div class="card-action">
-                                <a href="#">This is a link</a>
+                                <a href="buy.html#donegalplace">View this Property</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col s12 m5">
+                    <div class="col s12 m6">
                         <div class="card">
                             <div class="card-image">
-                                <img src="images/sample-1.jpg">
-                                <span class="card-title">Card Title</span>
+                                <img src="images/images/CoopersMillAvenue/CMA1.jpg">
+                                <span class="card-title">Coopers Mill Ave</span>
                             </div>
                             <div class="card-content">
-                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                                <p>
+                                        <li>4 Bedroom</li>
+                                        <li>Semi-Detached</li>
+                                        <li>Unfurnished</li>
+                                </p>
                             </div>
                             <div class="card-action">
-                                <a href="#">This is a link</a>
+                                <a href="buy.html#coopersmill">View this Property</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col s12 m5 offset-m1">
+                    <div class="col s12 m6 offset-s1">
                         <div class="card">
                             <div class="card-image">
-                                <img src="images/sample-1.jpg">
-                                <span class="card-title">Card Title</span>
+                                <img src="images/images/AscotGardens/AG1.jpg">
+                                <span class="card-title">Ascot Gardens</span>
                             </div>
                             <div class="card-content">
-                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                                <p>
+                                    <li>3 Bedroom</li>
+                                    <li>Detached</li>
+                                    <li>Furnished</li>
+                                </p>
                             </div>
                             <div class="card-action">
-                                <a href="#">This is a link</a>
+                                <a href="buy.html#ascotgardens">View this Property</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col s12 m5">
+                    <div class="col s12 m6">
                         <div class="card">
                             <div class="card-image">
-                                <img src="images/sample-1.jpg">
-                                <span class="card-title">Card Title</span>
+                                <img src="images/images/HeathLodgeDrive/HLD2.jpg">
+                                <span class="card-title">Heath Lodge Dr</span>
                             </div>
                             <div class="card-content">
-                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                                <p>
+                                        <li>2 Bedroom</li>
+                                        <li>Detached</li>
+                                        <li>Furnished</li>
+                                </p>
                             </div>
                             <div class="card-action">
-                                <a href="#">This is a link</a>
+                                <a href="rent.html#heathlodge">View this Property</a>
                             </div>
                         </div>
                     </div>
@@ -109,12 +125,108 @@
         </div>
     </div>
 </body>
-<div class="parallax"></div>
+<div id="index" class="parallax-container">
+    <h3 id="trustedDevelopers"> NEW DEVELOPMENTS </h3>
+    <div class="section no-pad-bot">
+        <div id="trustedDevelopersContainer" class="container">
+            <div class="row">
+                <div class="col s11 m4 offset-s1">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/developers/hadlow-park.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Hadlow Park<i class="material-icons right">more_vert</i></span>
+                            <p><a href="#modal8" class="modal-trigger" data-target="modal7">Preview</a></p>
+                            <!-- Modal Structure -->
+                            <div id="modal7" class="modal">
+                                <div class="modal-content">
+                                    <video width="100%" controls>
+                                        <source src="media/hadlow-park-video.mp4" type="video/mp4">
+                                        <source src="media/hadlow-park-video.ogg" type="video/ogg"> Your browser does not support HTML5 video.
+                                    </video>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Done</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Hadlow Park<i class="material-icons right">close</i></span>
+                            <p>Fantastic three bedroom semi detached family home set within a prominent position along the ever popular Suffolk road with proximity to leading schools, local shops & transport links. The property has been maintained to an excellent standard & must be viewed to be fully appreciated.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s11 m4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/developers/the-cove.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">The Cove<i class="material-icons right">more_vert</i></span>
+                            <p><a href="#modal8" class="modal-trigger" data-target="modal8">Preview</a></p>
+                            <!-- Modal Structure -->
+                            <div id="modal8" class="modal">
+                                <div class="modal-content">
+                                    <video width="100%" controls>
+                                        <source src="media/the-cove.mp4" type="video/mp4">
+                                        <source src="media/the-cove.ogg" type="video/ogg"> Your browser does not support HTML5 video.
+                                    </video>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Done</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">The Cove<i class="material-icons right">close</i></span>
+                            <p>Fantastic three bedroom semi detached family home set within a prominent position along the ever popular Suffolk road with proximity to leading schools, local shops & transport links. The property has been maintained to an excellent standard & must be viewed to be fully appreciated.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s11 m4 offset-s1">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/developers/victoria-gate.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Victoria Gate<i class="material-icons right">more_vert</i></span>
+                            <p><a href="#modal9" class="modal-trigger" data-target="modal9">Preview</a></p>
+                            <!-- Modal Structure -->
+                            <div id="modal9" class="modal">
+                                <div class="modal-content">
+                                    <video width="100%" controls>
+                                        <source src="media/victoria-gate.mp4" type="video/mp4">
+                                        <source src="victoria-gate.ogg" type="video/ogg"> Your browser does not support HTML5 video.
+                                    </video>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Done</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Victoria Gate<i class="material-icons right">close</i></span>
+                            <p>Internally the accommodation comprises two bedrooms, spacious lounge with excellent views extending towards Craigantlet Hills, kitchen with ample dining area and bathroom with white suite. Further benefits include uPVC double glazed window frames, driveway to ample car parking and private enclosed south facing garden to rear.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<div id="index-bottom" class="parallax-container">
+    <div class="container">
+        <h5> You Property News </h5>
+    </div>
+</div>
 <footer class="page-footer">
     <div class="container">
         <div class="row">
             <div class="col l6 s12">
-                <h5 class="white-text">About us</h5> You Property is a Belfast base letting agent specialising in family homes and student accomodation alike. Founded by John Moore in 2005, we strive to provide a quality service and support to our customer base.
+                <h5 class="white-text">About us</h5> You Property is a Belfast based letting agent specialising in family homes and student accomodation alike. Founded by John Moore in 2005, we strive to provide a quality service and support to our customer base.
             </div>
             <div class="col l3 s12 righ">
                 <h5 class="white-text">Connect</h5>
@@ -126,12 +238,20 @@
                 </ul>
             </div>
         </div>
-        <div class="footer-copyright">
-            <div class="container">
-                Made by <a class="brown-text text-lighten-3">Aaron Murphy, Eoghan Bradley, Joshua Knight</a>
-            </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            Made by <a class="brown-text text-lighten-3">Aaron Murphy, Eoghan Bradley, Joshua Knight</a>
         </div>
+    </div>
 </footer>
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
+<script src="js/javascript.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</body>
 </body>
 
 </HTML>
