@@ -5734,7 +5734,7 @@ small {
 .btn-small {
     text-decoration: none;
     color: #fff;
-    background-color: #26a69a;
+    background-color: #76323f;
     text-align: center;
     letter-spacing: .5px;
     -webkit-transition: background-color .2s ease-out;
@@ -5745,7 +5745,7 @@ small {
 .btn:hover,
 .btn-large:hover,
 .btn-small:hover {
-    background-color: #2bbbad;
+    background-color: #d9a6af;
 }
 
 .btn-floating {
@@ -10080,5 +10080,14 @@ input[type=range]::-ms-thumb {
     text-align: center;
     padding-left: 220;
     padding-top: 60px;
-}
+    }
+
+    #login-header {
+        padding-left: 25px;
+    }
+
+    #register-header {
+         padding-left: 25px;
+    }
+
 }
