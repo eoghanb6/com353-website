@@ -9964,6 +9964,12 @@ input[type=range]::-ms-thumb {
         color: #ffffff;
     }
 
+  .form1 {
+
+    float:left;
+    width: 400px;
+  }
+
     .parallax-index-first {
         /* The image used */
         background-image: url("../media/featured-home-2.jpg");
